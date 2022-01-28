@@ -1,0 +1,26 @@
+# Django juman admin
+
+
+## Install
+
+```
+pip install django-juman-admin
+```
+
+## Configuration
+
+
+Add juman-admin before contrib.admin and
+make sure you have sites app installed and you added a SITE_ID on your settings
+
+```
+INSTALLED_APPS = (
+    'juman_admin',
+    'django.contrib.admin',
+    # ...
+    'django.contrib.sites',
+    # ...
+)
+
+SITE_ID = 1
+```
