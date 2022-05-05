@@ -1,0 +1,23 @@
+/* cambio secciones informes fondo y bordes*/
+.secciones-informe > h2{
+    background-color: black !important;
+    color: blanchedalmond;
+}
+
+tbody.secciones-informe{
+   /* border-left: 1px solid #383737 !important;
+    border-right: 1px solid #383737 !important;
+    border-top: 1.5px solid #383737 !important;*/
+    border-bottom: 2px solid #605F5E !important;
+    margin-bottom: 5px;
+}
+
+
+/* elimino etiquetas en los campos y agrego padding*/
+.inline-group .tabular tr.has_original td {
+    padding-top: 8px;
+}
+
+.original {
+    display: none;
+}
